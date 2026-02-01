@@ -35,32 +35,7 @@
 
 <body class="bg-brand-dark text-gray-300">
 
-    <!-- Quick Links Bar -->
-    <div class="quick-links-bar fixed w-full z-50 top-0 left-0">
-        <div class="container mx-auto px-6 py-2">
-            <div class="flex flex-wrap items-center justify-center md:justify-end gap-3 md:gap-6 text-xs md:text-sm">
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSez5FNre4moJEgHFhAeXGRyJ1x24RQqUObyMH0sR6KsNecKpg/viewform?usp=publish-editor"
-                    target="_blank" class="quick-link text-brand-orange hover:text-white font-bold">
-                    <i class="fas fa-user-plus mr-1"></i> Register Now
-                </a>
-                <a href="https://chat.whatsapp.com/CIdLwB27FS60E7yd3lxepT?mode=gi_t" target="_blank"
-                    class="quick-link text-green-400 hover:text-white font-bold">
-                    <i class="fab fa-whatsapp mr-1"></i> Join WhatsApp
-                </a>
-                <a href="https://fog-airedale-655.notion.site/FORGE-1-0-Buildathon-Participant-Guide-2f9372e4badc80b9a971eafbe96b6436?pvs=141"
-                    target="_blank" class="quick-link text-brand-cyan hover:text-white font-bold">
-                    <i class="fas fa-book mr-1"></i> Guide
-                </a>
-                <a href="https://fog-airedale-655.notion.site/FORGE-1-0-Participant-Preparation-Tech-Guide-2f9372e4badc80b7859fd631fa2f8719?pvs=141"
-                    target="_blank" class="quick-link text-brand-cyan hover:text-white font-bold">
-                    <i class="fas fa-code mr-1"></i> Tech Guide
-                </a>
-                <a href="#sponsors" class="quick-link text-purple-400 hover:text-white font-bold">
-                    <i class="fas fa-handshake mr-1"></i> Sponsor
-                </a>
-            </div>
-        </div>
-    </div>
+
 
     <!-- Floating Action Buttons -->
     <div class="fab-container">
@@ -77,25 +52,25 @@
     </div>
 
     <!-- Navigation -->
-    <nav class="fixed w-full z-40 glass border-b border-white/5" style="top: 40px;">
+    <nav class="fixed w-full z-50 glass border-b border-white/5">
         <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <!-- Left: SEED Presents + Logo -->
             <div class="flex items-center space-x-4">
                 <img src="assets/seed_logo.jpeg" alt="SEED Logo" class="h-10 w-auto rounded-md">
-                <div class="h-6 w-px bg-white/20"></div>
-                <span class="font-display font-bold text-xl tracking-wider text-white">FORGE<span
-                        class="text-brand-orange">1.0</span></span>
+                <div class="flex flex-col">
+                    <span class="text-gray-400 text-xs uppercase tracking-wider">SEED Presents</span>
+                    <span class="font-display font-bold text-xl tracking-wider text-white">FORGE<span
+                            class="text-brand-orange">1.0</span></span>
+                </div>
             </div>
-            <div class="hidden md:flex items-center space-x-8">
-                <a href="#about"
-                    class="hover:text-brand-secondary transition-colors text-sm uppercase font-bold tracking-widest">About</a>
-                <a href="#prizes"
-                    class="hover:text-brand-secondary transition-colors text-sm uppercase font-bold tracking-widest">Prizes</a>
-                <a href="#register-info"
-                    class="hover:text-brand-secondary transition-colors text-sm uppercase font-bold tracking-widest">Register</a>
-                <a href="#guide"
-                    class="hover:text-brand-secondary transition-colors text-sm uppercase font-bold tracking-widest">Guides</a>
-                <a href="#timeline"
-                    class="hover:text-brand-secondary transition-colors text-sm uppercase font-bold tracking-widest">Timeline</a>
+
+            <!-- Right: Navigation Links -->
+            <div class="hidden md:flex items-center space-x-6">
+                <a href="#about" class="hover:text-brand-cyan transition-colors text-sm text-gray-300">About</a>
+                <a href="#prizes" class="hover:text-brand-cyan transition-colors text-sm text-gray-300">Prizes</a>
+                <a href="#timeline" class="hover:text-brand-cyan transition-colors text-sm text-gray-300">Timeline</a>
+                <a href="#guide" class="hover:text-brand-cyan transition-colors text-sm text-gray-300">Guides</a>
+                <a href="#sponsors" class="hover:text-brand-cyan transition-colors text-sm text-gray-300">Sponsor</a>
                 <a href="https://docs.google.com/forms/d/e/1FAIpQLSez5FNre4moJEgHFhAeXGRyJ1x24RQqUObyMH0sR6KsNecKpg/viewform?usp=publish-editor"
                     target="_blank" class="btn-forge px-6 py-2 text-sm">Register Now</a>
             </div>
@@ -111,26 +86,56 @@
         </div>
 
         <div class="container relative z-10 px-6 text-center">
+            <!-- SEED Presents Badge -->
+            <div class="mb-4 animate-fade-in">
+                <span class="text-gray-400 text-sm uppercase tracking-wider">SEED Presents</span>
+            </div>
             <div
-                class="mb-6 inline-block border border-brand-orange/30 bg-brand-orange/10 px-4 py-1 rounded-full text-brand-orange text-sm font-bold tracking-widest animate-fade-in">
+                class="mb-6 inline-block border border-brand-orange/30 bg-brand-orange/10 px-4 py-1 rounded-full text-brand-orange text-sm font-bold tracking-widest animate-fade-in delay-100">
                 FEB 8, 2026 • NIT JALANDHAR • NO REGISTRATION FEE
             </div>
-            <h1 class="text-6xl md:text-8xl font-black text-white mb-6 animate-fade-in delay-100">
+            <h1 class="text-6xl md:text-8xl font-black text-white mb-6 animate-fade-in delay-200">
                 FORGE <span
                     class="text-transparent bg-clip-text bg-gradient-to-r from-brand-orange to-red-600">1.0</span>
             </h1>
-            <p class="text-xl md:text-2xl text-gray-300 mb-10 max-w-2xl mx-auto font-light animate-fade-in delay-200">
+            <p class="text-xl md:text-2xl text-gray-300 mb-10 max-w-2xl mx-auto font-light animate-fade-in delay-300">
                 From <span class="text-brand-cyan font-medium">Breadboards</span> to <span
                     class="text-brand-cyan font-medium">Breakthroughs</span>.<br>
                 Build Real. Ship Fast.
             </p>
-            <div class="flex flex-col md:flex-row gap-4 justify-center animate-fade-in delay-300">
+            <div class="flex flex-col md:flex-row gap-4 justify-center animate-fade-in delay-400">
                 <a href="https://docs.google.com/forms/d/e/1FAIpQLSez5FNre4moJEgHFhAeXGRyJ1x24RQqUObyMH0sR6KsNecKpg/viewform?usp=publish-editor"
                     target="_blank" class="btn-forge px-8 py-4 text-lg">Start Building</a>
                 <a href="#guide"
                     class="px-8 py-4 border border-white/20 hover:border-brand-cyan hover:text-brand-cyan transition-all text-white font-bold uppercase tracking-wider backdrop-blur-sm clip-path-polygon">
                     View Guide
                 </a>
+            </div>
+
+            <!-- Event Date & Venue -->
+            <div class="mt-10 animate-fade-in delay-500">
+                <div class="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-8">
+                    <!-- Date -->
+                    <div
+                        class="flex items-center gap-3 bg-white/5 backdrop-blur-sm px-6 py-3 rounded-lg border border-white/10 hover:border-brand-orange/50 transition-all">
+                        <i class="fas fa-calendar-day text-brand-orange text-2xl"></i>
+                        <div class="text-left">
+                            <p class="text-xs text-gray-400 uppercase tracking-wider">Event Date</p>
+                            <p class="text-white font-bold text-lg">February 8, 2026</p>
+                        </div>
+                    </div>
+
+                    <!-- Venue -->
+                    <div
+                        class="flex items-center gap-3 bg-white/5 backdrop-blur-sm px-6 py-3 rounded-lg border border-white/10 hover:border-brand-cyan/50 transition-all">
+                        <i class="fas fa-map-marker-alt text-brand-cyan text-2xl"></i>
+                        <div class="text-left">
+                            <p class="text-xs text-gray-400 uppercase tracking-wider">Venue</p>
+                            <p class="text-white font-bold text-lg">Video Conferencing Hall (VCH)</p>
+                            <p class="text-gray-300 text-sm">IT Building, NIT Jalandhar</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </header>
@@ -322,18 +327,21 @@
                             class="w-64 h-64 mx-auto mb-4 rounded-lg">
                         <a href="https://docs.google.com/forms/d/e/1FAIpQLSez5FNre4moJEgHFhAeXGRyJ1x24RQqUObyMH0sR6KsNecKpg/viewform?usp=publish-editor"
                             target="_blank"
-                            class="inline-block bg-brand-orange text-white px-6 py-3 rounded-lg font-bold hover:bg-brand-orange/80 transition-colors">
+                            class="px-6 py-2.5 bg-brand-orange text-white rounded-lg font-bold hover:bg-brand-orange/80 transition-all text-sm">
                             <i class="fas fa-user-plus mr-2"></i>Register Now
                         </a>
                     </div>
 
                     <!-- WhatsApp QR -->
-                    <div class="bg-white p-6 rounded-xl text-center">
-                        <h4 class="text-brand-dark font-bold text-lg mb-4">Join WhatsApp Group</h4>
-                        <img src="assets/whatsapp_qr.jpg" alt="WhatsApp Group QR Code"
-                            class="w-64 h-64 mx-auto mb-4 rounded-lg">
+                    <div class="bg-white p-8 rounded-xl text-center shadow-xl">
+                        <h4 class="text-brand-dark font-bold text-xl mb-6 uppercase tracking-wider">Join WhatsApp Group
+                        </h4>
+                        <div class="bg-green-50 p-4 rounded-lg mb-6 inline-block border-4 border-green-500">
+                            <img src="assets/whatsapp_qr.jpg" alt="WhatsApp Group QR Code"
+                                class="w-56 h-56 mx-auto rounded">
+                        </div>
                         <a href="https://chat.whatsapp.com/CIdLwB27FS60E7yd3lxepT?mode=gi_t" target="_blank"
-                            class="inline-block bg-green-500 text-white px-6 py-3 rounded-lg font-bold hover:bg-green-600 transition-colors">
+                            class="inline-block bg-green-500 text-white px-8 py-3 rounded-lg font-bold hover:bg-green-600 transition-colors text-lg">
                             <i class="fab fa-whatsapp mr-2"></i>Join Group
                         </a>
                     </div>
@@ -578,15 +586,21 @@
                             <div class="text-center md:text-left">
                                 <h3 class="text-2xl md:text-3xl font-bold text-white mb-3">Plaksha University</h3>
                                 <p class="text-gray-400 mb-4 leading-relaxed">Plaksha University is a pioneering
-                                    institution dedicated to fostering innovation, technology, and entrepreneurship. As
-                                    our premium partner, they empower students to build the future.</p>
+                                    institution offering a <span class="text-purple-300 font-semibold">Master's in
+                                        AI</span> program, dedicated to fostering innovation, technology, and
+                                    entrepreneurship. As
+                                    our premium partner, they empower students to build the future with cutting-edge AI
+                                    education.</p>
                                 <div class="flex flex-wrap gap-2 justify-center md:justify-start">
                                     <span
-                                        class="px-3 py-1 bg-purple-500/20 text-purple-300 rounded-full text-xs font-semibold">Innovation</span>
+                                        class="px-3 py-1 bg-purple-500/20 text-purple-300 rounded-full text-xs font-semibold">Master's
+                                        in AI</span>
                                     <span
-                                        class="px-3 py-1 bg-pink-500/20 text-pink-300 rounded-full text-xs font-semibold">Technology</span>
+                                        class="px-3 py-1 bg-pink-500/20 text-pink-300 rounded-full text-xs font-semibold">Innovation</span>
                                     <span
-                                        class="px-3 py-1 bg-purple-500/20 text-purple-300 rounded-full text-xs font-semibold">Excellence</span>
+                                        class="px-3 py-1 bg-purple-500/20 text-purple-300 rounded-full text-xs font-semibold">Technology</span>
+                                    <span
+                                        class="px-3 py-1 bg-pink-500/20 text-pink-300 rounded-full text-xs font-semibold">Excellence</span>
                                 </div>
                             </div>
                         </div>
