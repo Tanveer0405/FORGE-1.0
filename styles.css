@@ -383,6 +383,10 @@ h6 {
     background: linear-gradient(135deg, #a855f7, #d946ef);
 }
 
+.fab-participant {
+    background: linear-gradient(135deg, #0ea5e9, #2563eb);
+}
+
 .fab-tooltip {
     position: absolute;
     right: 70px;
