@@ -14,7 +14,7 @@ Unlike traditional hackathons that focus on ideation or presentations, **FORGE 1
 
 - **Date:** February 15, 2026
 - **Time:** 09:00 AM - 06:30 PM
-- **Venue:** Video Conferencing Hall (VCH), IT Building, NIT Jalandhar
+- **Venue:** CENTRAL SEMINAR HALL (CSH), NIT JALANDHAR
 - **Team Size:** 2-3 Members
 - **Registration Fee:** ₹0 (Free)
 
